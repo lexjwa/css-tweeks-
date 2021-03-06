@@ -1,0 +1,11 @@
+header :is(h1, :a, .btn, small) {
+  color: green;
+}
+
+:is(header, .card) p:hover {
+  color: red;
+}
+
+.card :is(.title, p a) {
+  color: red;
+} 
