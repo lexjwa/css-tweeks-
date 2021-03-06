@@ -9,3 +9,7 @@ header :is(h1, :a, .btn, small) {
 .card :is(.title, p a) {
   color: red;
 } 
+
+header :is(p,){
+  color: purple;
+}
